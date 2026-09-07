@@ -1,19 +1,18 @@
 # Claude 中文指南
 
-面向中文用户的 Claude 教程与动态合集：入门教程、插件、版本更新。内容整理自 Claude 中文站官网。
+## Claude Code介绍
 
-**官方持续更新入口：[Claude中文站 官网](https://www.b2cc.com.cn/)** —— 完整教程与最新文章以官网为准，本仓库为定期同步的中文内容镜像。
+Claude Code 是 Anthropic 推出的 AI 编程智能体，包含终端命令行工具、桌面应用和 IDE 插件等形态，并支持 Web 与 iOS 端远程委派任务。它直接在本地终端运行，能够理解你的代码库，通过自然语言完成代码生成与修改、执行测试、运行命令、处理 Git 工作流等任务。基于 Sonnet 和 Opus 系列模型驱动，专为真实软件工程任务优化，支持在 VS Code、JetBrains 等 IDE 中以可视化 diff 呈现修改。Claude Code 可调用全部 CLI 工具，从理解百万行级代码库到一键提交 PR，让开发者在终端完成从构思到上线的完整闭环。
 
-## 仓库简介
+## Claude Code特点
 
-本仓库把 Claude中文站 上「Claude 中文指南」主题的公开文章收拢为 Markdown 合集：每篇文档顶部与文末都保留了官网原文链接，可在线阅读，也可以 `git clone` 到本地，用于检索、离线阅读或交给 AI 工具做学习总结。
+- 终端原生运行，轻量高效，零配置开箱即用。
+- Sonnet/Opus 模型驱动，专为编程任务深度优化。
+- 支持搭建项目、重构、测试、提交 PR 全流程。
+- 多模态输入，支持文本、截图、图表理解。
+- 深度集成 GitHub，终端/IDE/Web/iOS 多端协作。
 
-## 目录结构
-
-- `docs/` — 教程与使用指南（7 篇）：安装、上手、场景实战、答疑。
-- `changelog/` — 版本动态与资讯（8 篇）：按发布时间倒序排列。
-
-## 教程与指南
+## Claude Code教程与指南
 
 - [GitHub 上那个画架构图的技能 Archify，收藏到 19.5K 了](https://www.b2cc.com.cn/chajian/2611) · [📄 仓库内阅读](docs/2611-GitHub上那个画架构图的技能Archify，收藏到19.5K了.md)
 - [想给 Claude Code 装官方技能，注册一个市场再装两个包就够](https://www.b2cc.com.cn/jiaocheng/2613) · [📄 仓库内阅读](docs/2613-想给ClaudeCode装官方技能，注册一个市场再装两个包就够.md)
@@ -23,7 +22,7 @@
 - [Claude Code官方插件大盘点：13个免费插件，从代码审查到安全检查全齐了](https://www.b2cc.com.cn/chajian/2556) · [📄 仓库内阅读](docs/2556-ClaudeCode官方插件大盘点：13个免费插件，从代码审查到安全检查全齐了.md)
 - [Claude自定义技能怎么做？一个SKILL.md文件就够了，官方模板直接抄](https://www.b2cc.com.cn/jiaocheng/2555) · [📄 仓库内阅读](docs/2555-Claude自定义技能怎么做？一个SKILL.md文件就够了，官方模板直接抄.md)
 
-## 版本动态
+## Claude Code版本动态
 
 - 2026-09-07 · [Kimi API原生支持Claude Code：不用代理直接跑第三方模型](https://www.b2cc.com.cn/claudedt/2604) · [📄 仓库内阅读](changelog/2604-KimiAPI原生支持ClaudeCode：不用代理直接跑第三方模型.md)
 - 2026-09-06 · [Claude Code默认模型换成Fable 5.1：1M上下文，缓存读取降价75%](https://www.b2cc.com.cn/claudedt/2603) · [📄 仓库内阅读](changelog/2603-ClaudeCode默认模型换成Fable5.1：1M上下文，缓存读取降价75%.md)
@@ -35,5 +34,7 @@
 - 2026-08-25 · [Claude Code auto mode拆解：93%的审批都在无脑点允许，问题出在这](https://www.b2cc.com.cn/claudedt/2551) · [📄 仓库内阅读](changelog/2551-ClaudeCodeautomode拆解：93%的审批都在无脑点允许，问题出在这.md)
 
 ---
+
+**官方持续更新入口：[Claude中文站 官网](https://www.b2cc.com.cn/)**
 
 © [Claude中文站](https://www.b2cc.com.cn/) · 本仓库为官网内容镜像，文章版权归原作者所有。
