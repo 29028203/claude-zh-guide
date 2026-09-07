@@ -39,6 +39,6 @@ Claude Code 是 Anthropic 推出的 AI 编程智能体，包含终端命令行�
 
 ---
 
-**官方持续更新入口：[Claude中文站 官网](https://www.b2cc.com.cn/)**
+**官方持续更新入口：[Claude Code](https://www.b2cc.com.cn/)**
 
 © [Claude中文站](https://www.b2cc.com.cn/) · 本仓库为官网内容镜像，文章版权归原作者所有。
