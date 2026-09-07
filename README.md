@@ -2,11 +2,18 @@
 
 面向中文用户的 Claude 教程与动态合集：入门教程、插件、版本更新。内容整理自 Claude 中文站官网。
 
-**完整教程与持续更新见官网：[Claude中文站](https://www.b2cc.com.cn/)**
+**官方持续更新入口：[Claude中文站 官网](https://www.b2cc.com.cn/)** —— 完整教程与最新文章以官网为准，本仓库为定期同步的中文内容镜像。
 
-> 本文档仓库共收录 **15 篇**（教程 7 篇 / 版本动态 8 篇），内容自动同步自 [Claude中文站](https://www.b2cc.com.cn/)。
+## 仓库简介
 
-## 教程指南
+本仓库把 Claude中文站 上「Claude 中文指南」主题的公开文章收拢为 Markdown 合集：每篇文档顶部与文末都保留了官网原文链接，可在线阅读，也可以 `git clone` 到本地，用于检索、离线阅读或交给 AI 工具做学习总结。
+
+## 目录结构
+
+- `docs/` — 教程与使用指南（7 篇）：安装、上手、场景实战、答疑。
+- `changelog/` — 版本动态与资讯（8 篇）：按发布时间倒序排列。
+
+## 教程与指南
 
 - [GitHub 上那个画架构图的技能 Archify，收藏到 19.5K 了](https://www.b2cc.com.cn/chajian/2611) · [📄 仓库内阅读](docs/2611-GitHub上那个画架构图的技能Archify，收藏到19.5K了.md)
 - [想给 Claude Code 装官方技能，注册一个市场再装两个包就够](https://www.b2cc.com.cn/jiaocheng/2613) · [📄 仓库内阅读](docs/2613-想给ClaudeCode装官方技能，注册一个市场再装两个包就够.md)
